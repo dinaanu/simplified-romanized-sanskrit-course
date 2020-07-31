@@ -1,0 +1,16 @@
+title: Simplified Romanized Sanskrit
+description: How to quickly master Sanskrit Pronunciation the fun and easy way.
+template:
+  repo: simplified-romanized-sanskrit-template
+  name: simplified-romanized-sanskrit
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
